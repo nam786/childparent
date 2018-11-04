@@ -1,0 +1,7 @@
+<p> <strong>From parent to child : </strong></p>
+<div *ngFor = "let user of users">
+ {{user}} 
+</div>
+
+<p> <strong> Child to Parent emit: </strong></p>
+<button (click)="childToParentMethod()"> Child to Parent</button>
